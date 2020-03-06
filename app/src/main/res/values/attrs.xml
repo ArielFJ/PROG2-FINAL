@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ds">
+
+        <attr name="bgColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="tintColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="textAccentColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>

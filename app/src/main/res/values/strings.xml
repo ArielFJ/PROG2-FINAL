@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MagnaGames</string>
+    <string name="infoTitle">About the author</string>
+    <string name="infoBody">Jesús Ariel Fermín\n\n2018-6362\n\nafermin266@gmail.com\n\nBackend and Mobile apps developer</string>
+    <string name="footer_text_1">More Games</string>
+    <string name="infoText">About</string>
+    <string name="darkMode">Toggle Dark Mode</string>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Normal / Light theme. -->
+    <style name="LightAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/LTColorPrimary</item>
+        <item name="colorPrimaryDark">@color/LTColorPrimaryDark</item>
+        <item name="colorAccent">@color/LTColorAccent</item>
+        <item name="textAccentColor">@color/LTTextAccentColor</item>
+
+        <item name="bgColor">@color/LTBGColor</item>
+        <item name="textColor">@color/LTTextColor</item>
+        <item name="tintColor">@color/LTTintColor</item>
+        <item name="buttonColor">@color/LTColorPrimary</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/DTColorPrimary</item>
+        <item name="colorPrimaryDark">@color/DTColorPrimaryDark</item>
+        <item name="colorAccent">@color/LTColorAccent</item>
+        <item name="textAccentColor">@color/DTTextAccentColor</item>
+
+        <item name="bgColor">@color/DTBGColor</item>
+        <item name="textColor">@color/DTText_TintColor</item>
+        <item name="tintColor">@color/DTText_TintColor</item>
+        <item name="buttonColor">@color/LTColorPrimary</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.UserDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">#fff</item>
+    </style>
+
+</resources>

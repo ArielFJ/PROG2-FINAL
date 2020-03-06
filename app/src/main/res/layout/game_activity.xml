@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?attr/bgColor">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gameAct_frameLayout">
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/gameAct_Clip"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gameAct_name"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="?attr/textColor"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gameAct_release"
+                    android:textStyle="italic"
+                    android:padding="@dimen/space_small"
+                    android:textColor="?attr/textColor"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gameAct_rating"
+                    android:layout_gravity="right"
+                    android:textColor="?attr/textColor"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gameAct_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textColor="?attr/textColor"
+                android:padding="@dimen/space_small"/>
+
+            <TextView
+                android:id="@+id/gameAct_ESRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="?attr/textColor"
+                android:padding="@dimen/space_small"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gameAct_platforms"
+                android:textSize="16sp"
+                android:textColor="?attr/textAccentColor"
+                android:padding="@dimen/space_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gameAct_genres"
+                android:textSize="16sp"
+                android:textColor="?attr/textAccentColor"
+                android:padding="@dimen/space_small"/>
+
+
+
+
+            <TextView
+                android:id="@+id/gameAct_Developers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="?attr/textAccentColor"
+                android:padding="@dimen/space_small"/>
+
+            <TextView
+                android:id="@+id/gameAct_Publishers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="?attr/textAccentColor"
+                android:padding="@dimen/space_small"/>
+
+            <TextView
+                android:id="@+id/gameAct_Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="?attr/textColor"
+                android:padding="@dimen/space_small"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scrollbars="horizontal"
+                android:id="@+id/gameAct_recycler"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

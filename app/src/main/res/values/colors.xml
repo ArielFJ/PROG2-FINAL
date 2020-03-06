@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LTColorPrimary">#2196f3</color>
+    <color name="LTColorPrimaryDark">#1976d2</color>
+    <color name="LTColorAccent">#D81B60</color>
+    <color name="LTBGColor">#fcfcfc</color>
+    <color name="LTTextColor">#808080</color>
+    <color name="LTTintColor">#000</color>
+    <color name="LTTextAccentColor">#0083DB</color>
+
+    <color name="DTColorPrimary">#212121</color>
+    <color name="DTColorPrimaryDark">#000</color>
+    <color name="DTBGColor">#303030</color>
+    <color name="DTText_TintColor">#fff</color>
+    <color name="DTTextAccentColor">#0AB304</color>
+
+</resources>
